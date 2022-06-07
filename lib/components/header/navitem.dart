@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:vrouter/vrouter.dart';
-import 'package:url_strategy/url_strategy.dart';
 
 class W_Navitem extends StatefulWidget {
   final String name;

@@ -239,7 +239,7 @@ packages:
     source: hosted
     version: "3.0.1"
   url_strategy:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: url_strategy
       url: "https://pub.dartlang.org"

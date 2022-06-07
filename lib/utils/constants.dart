@@ -2,7 +2,6 @@ import 'package:website_template_by_mala/pages/home.dart';
 import 'package:website_template_by_mala/pages/page1.dart';
 import 'package:website_template_by_mala/pages/page2.dart';
 import 'package:website_template_by_mala/pages/page3.dart';
-import 'package:flutter/material.dart';
 
 List navPages = [
   {"name": "Home", "path": "/", "widget": HomePage()},

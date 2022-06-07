@@ -1,16 +1,29 @@
-# website_template_by_mala
 
-A new Flutter project.
+# FlutterWeb Starter
 
-## Getting Started
+A basic starter for a Flutter Website.  
+[Click here to see the demo.](https://flutterwebstarter-malarache.surge.sh)
+## Installation
 
-This project is a starting point for a Flutter application.
+Get started with FlutterWeb Starter
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/malarache/FlutterWeb-Starter
+  cd FlutterWeb-Starter
+```
+```bash
+  flutter pub get
+  flutter run -d chrome --web-renderer html
+```
+    
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Responsive navbar
+- Loader
+- Routing
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## License
+
+[MIT](https://github.com/malarache/FlutterWeb-Starter/blob/main/LICENSE)
+
