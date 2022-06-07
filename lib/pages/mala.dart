@@ -13,7 +13,7 @@ class MalaPage extends StatelessWidget {
       color: Colors.blue,
       child: Center(
         child: Text(
-          "Page 3",
+          "Mala",
           style: TextStyle(
             fontFamily: "MusticaPro",
             color: Colors.white,
