@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class Page3Home extends StatelessWidget {
-  const Page3Home({Key? key}) : super(key: key);
+class Page3 extends StatelessWidget {
+  const Page3({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

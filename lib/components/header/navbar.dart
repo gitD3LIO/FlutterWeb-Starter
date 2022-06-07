@@ -71,9 +71,14 @@ class _W_NavbarState extends State<W_Navbar> {
                     children: List.generate(
                       navPages.length,
                       (index) {
-                        return W_Navitem(
+                        if (navPages[index]["onNavbar"]) {
+                          return W_Navitem(
                             name: navPages[index]["name"],
-                            path: navPages[index]["path"]);
+                            path: navPages[index]["path"],
+                          );
+                        } else {
+                          return SizedBox.shrink();
+                        }
                       },
                     ),
                   ),

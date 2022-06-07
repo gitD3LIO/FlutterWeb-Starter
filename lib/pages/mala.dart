@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class Page1 extends StatelessWidget {
-  const Page1({Key? key}) : super(key: key);
+class MalaPage extends StatelessWidget {
+  const MalaPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class Page1 extends StatelessWidget {
       color: Colors.blue,
       child: Center(
         child: Text(
-          "Page 1",
+          "Page 3",
           style: TextStyle(
             fontFamily: "MusticaPro",
             color: Colors.white,
